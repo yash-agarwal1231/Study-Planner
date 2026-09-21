@@ -26,7 +26,7 @@ st.subheader("Plan your studies and keep track of your tasks.")
 # -------------------------------
 st.info(
     "ℹ️ There is no password authentication yet. "
-    "Your username is your identity and is **CASE-SENSITIVE**."
+    "Your username is your identity and is CASE-SENSITIVE."
 )
 name = st.text_input("👤 Enter your name")
 

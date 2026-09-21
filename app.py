@@ -17,9 +17,15 @@ st.markdown(
         border-radius: 8px;
         border: none;
     }
+ )   
+    .stButton>button:hover {
+        background-color: #ff2121;
+        color: white;
+    }
     </style>
-    """
-) 
+    """,
+    unsafe_allow_html=True,
+)
 
 # -------------------------------
 # Connect to MongoDB

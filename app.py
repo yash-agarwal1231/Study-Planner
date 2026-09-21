@@ -1,6 +1,25 @@
 import streamlit as st
 from pymongo import MongoClient
 
+st.markdown(
+    """
+    <style>
+    /* Change overall background color */
+    .stApp {
+        background-color: #FFF3E0;
+        color: #ffffff;
+    }
+    
+    /* Style custom buttons */
+    .stButton>button {
+        background-color: #FF4B4B;
+        color: white;
+        border-radius: 8px;
+        border: none;
+    }
+    </style>
+    """
+) 
 
 # -------------------------------
 # Connect to MongoDB
